@@ -7,14 +7,14 @@ export const Footer = () => {
         <footer>
             <div className="flex justify-center w-full z-50 bg-[#34343e]/50 backdrop-blur-md">
                 <ul className="flex justify-center items-center w-[300px]">
-                    <li className="p-3">
+                    <li className="p-3 pr-10">
                         <a
                           href="https://www.linkedin.com/in/valentin-fortunato/"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
                           <Image
-                            src="/Linkedin.png"
+                            src="/linkedin_2-removebg-preview (1).png"
                             alt="LinkedIn"
                             width={45}
                             height={45}
@@ -30,7 +30,7 @@ export const Footer = () => {
                         >
                           <Image
                             className="rounded-lg"
-                            src="/github.png"
+                            src="/github-white.png"
                             alt="Github"
                             width={50}
                             height={40}

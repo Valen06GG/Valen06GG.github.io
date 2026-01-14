@@ -19,13 +19,12 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: linear-gradient(
-      135deg,
-      #806a6a 0%,
-      #6e4545 50%,
-      #293037 100%
-    );
-    --foreground: #e2e8f0;
+    --background: radial-gradient(
+      ellipse at center,
+      #6b4f4f 0%,
+      #523737 45%,
+      #2b2323 100%
+);
   }
 }
 
