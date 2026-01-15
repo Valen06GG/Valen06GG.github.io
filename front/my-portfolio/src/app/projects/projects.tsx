@@ -6,9 +6,12 @@ export const Projects = () => {
     return(
         <>
          <main className="h-200 flex flex-col w-full">
-            <h1 className="m-4 py-1 pt-6 text-5xl text-neutral-300 text-center md:text-left font-bold underline underline-offset-4">
+            <div className="m-4 pt-6 w-fit mx-auto md:mx-0">
+              <h1 className="text-5xl text-neutral-300 font-bold">
                 Mis Proyectos
-            </h1>
+              </h1>
+              <div className="h-[2px] w-full bg-red-900 mt-2 rounded"></div>
+            </div>
             <section>
              <div className="flex items-start">
                
