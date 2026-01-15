@@ -16,8 +16,10 @@ export default function Home() {
                 </span>
               </h1>
               
-              <p className="pt-6 text-gray-400 text-lg leading-relaxed">
-                Desarrollador Frontend junior con estudios terminados, en constante aprendizaje y orientado al desarrollo de interfaces web modernas.
+              <p className="pt-6 text-gray-400 text-lg text-justify leading-relaxed">
+                Soy desarrollador Full Stack Junior especializado en Front-End, con estudios terminados, 
+                en constante aprendizaje y enfocado en la creación de interfaces web modernas, 
+                funcionales y orientadas a la experiencia de usuario.
               </p>
 
               <div className="mt-8">
