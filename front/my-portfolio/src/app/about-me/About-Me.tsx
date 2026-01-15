@@ -4,7 +4,7 @@ import React from "react";
 export const AboutMe = () => {
   return (
     <main className="min-h-screen flex items-center justify-center p-10">
-      <section className="flex flex-col md:flex-row items-center max-w-6xl w-full gap-12">
+      <section className="flex flex-col md:flex-row items-center max-w-6xl w-full gap-40">
         
         <div className="w-full md:w-1/2 flex justify-center md:justify-end">
           <div className="relative w-[300px] h-[300px] lg:w-[450px] lg:h-[450px]">
@@ -20,7 +20,7 @@ export const AboutMe = () => {
 
         <div className="w-full md:w-1/2 flex flex-col text-left">
           <div className="flex flex-row justify-between items-baseline mb-8">
-            <h1 className="text-4xl font-josefin text-white border-b-2 border-red-900 pb-2">
+            <h1 className="text-4xl font-bold text-white border-b-2 border-red-900 pb-2">
               Sobre mí
             </h1>
             <a 
