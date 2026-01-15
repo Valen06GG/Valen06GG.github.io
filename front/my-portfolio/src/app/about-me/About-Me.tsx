@@ -31,7 +31,7 @@ export const AboutMe = () => {
             </a>
           </div>
 
-          <div className= "text-justify font-mukta text-gray-300 text-lg lg:text-xl leading-relaxed space-y-4">
+          <div className= "text-justify font-sans text-gray-300 text-lg lg:text-xl leading-relaxed space-y-4">
             <p>
               Tengo 19 años, nací en Buenos Aires, Argentina, 
               y desde chico me apasiona la tecnología. Esa curiosidad 
