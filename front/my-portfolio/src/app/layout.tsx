@@ -17,6 +17,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Valentín Fortunato",
   description: "Desarrollador Frontend | React · Next.js · UI/UX",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
