@@ -5,7 +5,7 @@ import React from "react";
 export const Projects = () => {
     return(
         <>
-         <main className="h-200 flex flex-col w-full">
+         <main className="h-200 flex flex-col w-full pl-10">
             <div className="m-4 pt-6 w-fit mx-auto md:mx-0">
               <h1 className="text-5xl text-neutral-300 font-bold">
                 Mis Proyectos
