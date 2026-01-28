@@ -4,6 +4,7 @@ import React, { useRef } from "react";
 import emailjs from "emailjs-com";
 
 export const Contact = () => {
+  const KEY = process.env.NEXT_PUBLIC_EMAILJS_KEY;
   const form = useRef<HTMLFormElement>(null);
 
   const isValidEmail = (email: string) => {
@@ -33,7 +34,7 @@ export const Contact = () => {
         "service_wti78fp",
         "template_ic4tyxs",
         form.current,
-        "xMT9caJLw-cxFYWms"
+        KEY
       )
       .then(() => {
         alert("Mensaje enviado correctamente ✅");
