@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   title: "Valentín Fortunato",
   description: "Desarrollador Frontend | React · Next.js · UI/UX",
   icons: {
-    icon: "/favicon.ico",
+    icon: "/favicon-v2.ico",
   },
 };
 
