@@ -13,7 +13,7 @@ export const Projects = () => {
               <div className="h-[2px] w-full bg-red-900 mt-2 rounded"></div>
             </div>
             <section>
-             <div className="flex items-start">
+             <div className="flex flex-row items-start">
                
                <div className="w-2/8 m-4 py-14">
                  <Image
