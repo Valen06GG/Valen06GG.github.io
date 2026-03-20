@@ -78,8 +78,9 @@ export const Projects = () => {
                   </div>
             
                   <p className="text-neutral-300 leading-relaxed">
-                    Aplicación fullstack para gestión de equipos y tareas, con seguimiento en tiempo real.
-                    Desarrollada con React, NestJS y PostgreSQL.
+                    TeamBoard es una aplicación web fullstack enfocada en la gestión de equipos y proyectos. Permite organizar tareas, asignarlas a distintos usuarios y hacer un seguimiento claro del progreso en tiempo real.
+                    El proyecto fue desarrollado utilizando React en el frontend y NestJS en el backend, con una base de datos PostgreSQL. Además, incluye despliegue en producción y manejo de entornos, lo que refleja una implementación completa de una arquitectura moderna.
+                    Este proyecto destaca por su enfoque práctico, interfaz simple y la integración funcional entre cliente y servidor.
                   </p>
                 </div>
               </div>
