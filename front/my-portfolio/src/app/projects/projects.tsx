@@ -43,8 +43,8 @@ export const Projects = () => {
                   </div>
             
                   <p className="text-neutral-300 leading-relaxed">
-                    Plataforma web de cine desarrollada en equipo, enfocada en la experiencia de usuario,
-                    exploración de películas y visualización de contenido de forma interactiva.
+                    Kino es un proyecto web desarrollado en equipo que simula una plataforma de cine moderna e interactiva. La aplicación permite explorar películas en cartelera, consultar valoraciones, ver opiniones de otros usuarios y cotizar entradas de forma sencilla.
+                    El enfoque principal del proyecto está puesto en la experiencia de usuario (UX) y en el diseño de interfaces atractivas, utilizando una estética moderna, componentes reutilizables y una navegación clara.
                   </p>
                 </div>
               </div>
