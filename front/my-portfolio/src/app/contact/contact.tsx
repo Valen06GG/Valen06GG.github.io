@@ -88,7 +88,7 @@ export const Contact = () => {
 
           <button
             type="submit"
-            className="mt-4 bg-[#6b4f4f] text-gray-100 py-3 rounded-lg font-medium hover:bg-[#7a5a5a] transition"
+            className="mt-4 bg-[#6b4f4f] text-gray-100 py-3 rounded-lg font-medium hover:bg-[#7a5a5a] transition cursor-pointer"
           >
             Enviar mensaje
           </button>
