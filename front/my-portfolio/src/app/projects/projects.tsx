@@ -12,8 +12,8 @@ export const Projects = () => {
               </h1>
               <div className="h-[2px] w-full bg-red-900 mt-2 rounded"></div>
             </div>
-            <section>
-             <div className="flex flex-row items-start">
+            <section className="flex flex-col">
+             <div className="flex items-start mb-20">
                
                <div className="w-2/8 m-4 py-14">
                  <Image
@@ -59,6 +59,9 @@ export const Projects = () => {
                  </p>
                </div>
 
+              <div className="flex items-start mb-20">
+
+
                <div className="w-2/8 m-4 py-14">
                  <Image
                    src="/Teamboard.png"
@@ -66,7 +69,7 @@ export const Projects = () => {
                    width={300}
                    height={300}
                    className="rounded-lg w-70 h-40"
-                 />
+                   />
                </div>
            
                <div className="flex flex-col w-4/6 pr-20">
@@ -79,20 +82,20 @@ export const Projects = () => {
                      <a
                        href="https://teamboard-frontend-o5wvb5bcy-valentins-projects-0e36b93a.vercel.app"
                        className="px-6 py-3 text-white bg-white/5 border border-white/10 hover:bg-white/20 transition-all rounded-lg"
-                     >
+                       >
                        Ir a
                      </a>
            
                      <a
                        href="https://github.com/Valen06GG/kino-henry-pf"
                        className="flex items-center justify-center bg-[#333] rounded-full p-2"
-                     >
+                       >
                        <Image
                          src={GitHubImage}
                          alt="GitHub"
                          width={32}
                          height={32}
-                       />
+                         />
                      </a>
                    </div>
                  </div>
@@ -102,7 +105,8 @@ export const Projects = () => {
                    El proyecto fue desarrollado utilizando React en el frontend y NestJS en el backend, con una base de datos PostgreSQL. Además, incluye despliegue en producción y manejo de entornos, lo que refleja una implementación completa de una arquitectura moderna.
                    Este proyecto destaca por su enfoque práctico, interfaz simple y la integración funcional entre cliente y servidor.
                  </p>
-               </div>
+                </div>
+              </div>
              </div>
            </section>
          </main>
