@@ -12,103 +12,79 @@ export const Projects = () => {
               </h1>
               <div className="h-[2px] w-full bg-red-900 mt-2 rounded"></div>
             </div>
-            <section className="flex flex-col">
-             <div className="flex items-start mb-20">
-               
-               <div className="w-2/8 m-4 py-14">
-                 <Image
-                   src="/Kino.png"
-                   alt="Kino"
-                   width={300}
-                   height={300}
-                   className="rounded-lg w-70 h-40"
-                 />
-               </div>
-           
-               <div className="flex flex-col w-4/6 pr-20">
-                 <div className="flex justify-between items-start">
-                   <h1 className="text-2xl text-white font-bold mb-4">
-                     Kino-Henry
-                   </h1>
-           
-                   <div className="flex gap-4">
-                     <a
-                       href="https://kino-henry-pf.vercel.app"
-                       className="px-6 py-3 text-white bg-white/5 border border-white/10 hover:bg-white/20 transition-all rounded-lg"
-                     >
-                       Ir a
-                     </a>
-           
-                     <a
-                       href="https://github.com/Valen06GG/kino-henry-pf"
-                       className="flex items-center justify-center bg-[#333] rounded-full p-2"
-                     >
-                       <Image
-                         src={GitHubImage}
-                         alt="GitHub"
-                         width={32}
-                         height={32}
-                       />
-                     </a>
-                   </div>
-                 </div>
-           
-                 <p className=" pt-12 text-justify tracking-wide font-sans text-neutral-300">
-                   Kino es un proyecto web desarrollado en equipo que simula una plataforma de cine moderna e interactiva. La aplicación permite explorar películas en cartelera, consultar valoraciones, ver opiniones de otros usuarios y cotizar entradas de forma sencilla.
-                   El enfoque principal del proyecto está puesto en la experiencia de usuario (UX) y en el diseño de interfaces atractivas, utilizando una estética moderna, componentes reutilizables y una navegación clara.
-                 </p>
-               </div>
-
-              <div className="flex items-start mb-20">
-
-
-               <div className="w-2/8 m-4 py-14">
-                 <Image
-                   src="/Teamboard.png"
-                   alt="Teamboard"
-                   width={300}
-                   height={300}
-                   className="rounded-lg w-70 h-40"
-                   />
-               </div>
-           
-               <div className="flex flex-col w-4/6 pr-20">
-                 <div className="flex justify-between items-start">
-                   <h1 className="text-2xl text-white font-bold mb-4">
-                     Teamboard
-                   </h1>
-           
-                   <div className="flex gap-4">
-                     <a
-                       href="https://teamboard-frontend-o5wvb5bcy-valentins-projects-0e36b93a.vercel.app"
-                       className="px-6 py-3 text-white bg-white/5 border border-white/10 hover:bg-white/20 transition-all rounded-lg"
-                       >
-                       Ir a
-                     </a>
-           
-                     <a
-                       href="https://github.com/Valen06GG/kino-henry-pf"
-                       className="flex items-center justify-center bg-[#333] rounded-full p-2"
-                       >
-                       <Image
-                         src={GitHubImage}
-                         alt="GitHub"
-                         width={32}
-                         height={32}
-                         />
-                     </a>
-                   </div>
-                 </div>
-           
-                 <p className=" pt-12 text-justify tracking-wide font-sans text-neutral-300">
-                   TeamBoard es una aplicación web fullstack enfocada en la gestión de equipos y proyectos. Permite organizar tareas, asignarlas a distintos usuarios y hacer un seguimiento claro del progreso en tiempo real.
-                   El proyecto fue desarrollado utilizando React en el frontend y NestJS en el backend, con una base de datos PostgreSQL. Además, incluye despliegue en producción y manejo de entornos, lo que refleja una implementación completa de una arquitectura moderna.
-                   Este proyecto destaca por su enfoque práctico, interfaz simple y la integración funcional entre cliente y servidor.
-                 </p>
+            <section className="flex flex-col gap-20 max-w-5xl mx-auto">
+            
+              <div className="flex flex-col md:flex-row gap-8 items-center">
+                
+                <Image
+                  src="/Kino.png"
+                  alt="Kino"
+                  width={300}
+                  height={200}
+                  className="rounded-lg w-full md:w-[300px]"
+                />
+            
+                <div className="flex flex-col gap-4">
+                  <div className="flex items-center justify-between w-full">
+                    <h2 className="text-2xl font-bold text-white">Kino-Henry</h2>
+            
+                    <div className="flex gap-3">
+                      <a
+                        href="https://kino-henry-pf.vercel.app"
+                        className="px-4 py-2 border border-white/20 rounded-lg hover:bg-white/10"
+                      >
+                        Ir a
+                      </a>
+            
+                      <a href="https://github.com/Valen06GG/kino-henry-pf">
+                        <Image src={GitHubImage} alt="GitHub" width={28} height={28} />
+                      </a>
+                    </div>
+                  </div>
+            
+                  <p className="text-neutral-300 leading-relaxed">
+                    Plataforma web de cine desarrollada en equipo, enfocada en la experiencia de usuario,
+                    exploración de películas y visualización de contenido de forma interactiva.
+                  </p>
                 </div>
               </div>
-             </div>
-           </section>
+            
+              <div className="flex flex-col md:flex-row gap-8 items-center">
+                
+                <Image
+                  src="/Teamboard.png"
+                  alt="Teamboard"
+                  width={300}
+                  height={200}
+                  className="rounded-lg w-full md:w-[300px]"
+                />
+            
+                <div className="flex flex-col gap-4">
+                  <div className="flex items-center justify-between w-full">
+                    <h2 className="text-2xl font-bold text-white">TeamBoard</h2>
+            
+                    <div className="flex gap-3">
+                      <a
+                        href="https://teamboard-frontend-o5wvb5bcy-valentins-projects-0e36b93a.vercel.app"
+                        className="px-4 py-2 border border-white/20 rounded-lg hover:bg-white/10"
+                      >
+                        Ir a
+                      </a>
+            
+                      <a href="https://github.com/Valen06GG/kino-henry-pf">
+                        <Image src={GitHubImage} alt="GitHub" width={28} height={28} />
+                      </a>
+                    </div>
+                  </div>
+            
+                  <p className="text-neutral-300 leading-relaxed">
+                    Aplicación fullstack para gestión de equipos y tareas, con seguimiento en tiempo real.
+                    Desarrollada con React, NestJS y PostgreSQL.
+                  </p>
+                </div>
+              </div>
+            
+            </section>
          </main>
         </>
     )
