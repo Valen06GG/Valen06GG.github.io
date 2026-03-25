@@ -65,13 +65,13 @@ export const Projects = () => {
             
                     <div className="flex gap-3">
                       <a
-                        href="https://teamboard-frontend-o5wvb5bcy-valentins-projects-0e36b93a.vercel.app"
+                        href="https://teamboard-frontend-eta.vercel.app"
                         className="px-4 py-2 border border-white/20 rounded-lg hover:bg-white/10"
                       >
                         Ir a
                       </a>
             
-                      <a href="https://github.com/Valen06GG/kino-henry-pf">
+                      <a href="https://github.com/Valen06GG/teamboard-fullstack">
                         <Image src={GitHubImage} alt="GitHub" width={28} height={28} />
                       </a>
                     </div>
