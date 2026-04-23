@@ -2,56 +2,37 @@ import React from "react";
 import Image from "next/image";
 
 export const Footer = () => {
-    return(
-        <>
-        <footer>
-            <div className="flex justify-center w-full z-50 bg-[#34343e]/50 backdrop-blur-md">
-                <ul className="flex justify-center items-center w-[300px]">
-                    <li className="p-3 pr-10">
-                        <a
-                          href="https://www.linkedin.com/in/valentin-fortunato/"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <Image
+    return (
+        <footer className="w-full bg-[#1a1a1e] border-t border-white/10 py-8 mt-auto">
+            <div className="max-w-5xl mx-auto flex flex-col items-center gap-6">
+                <div className="flex justify-center gap-8">
+                    <a href="https://www.linkedin.com/in/valentin-fortunato/" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform">
+                        <Image
                             src="/linkedin_2-removebg-preview (1).png"
                             alt="LinkedIn"
-                            width={45}
-                            height={45}
-                          />
-                        </a>
-                    </li>
-
-                    <li>
-                        <a
-                          href="https://github.com/Valen06GG"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <Image
-                            className="rounded-lg"
+                            width={40}
+                            height={40}
+                        />
+                    </a>
+                    <a href="https://github.com/Valen06GG" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform">
+                        <Image
                             src="/github-white.png"
                             alt="Github"
-                            width={50}
+                            width={40}
                             height={40}
-                          />
-                        </a>
-                    </li>
-                </ul>
-            </div>
+                        />
+                    </a>
+                </div>
 
-            <div className="flex justify-center w-full z-50 bg-[#34343e]/50 backdrop-blur-md">
-              <ol className="pb-4 flex flex-col">
-                  <h2 className="text-white">
-                    Mi email: valenfortunato06@gmail.com
-                  </h2>
-                  
-                  <h1 className="flex justify-center text-[#f9b82c] font-medium">
-                    Desarrollado por Valentín Fortunato
-                  </h1>
-              </ol>
+                <div className="text-center space-y-2">
+                    <p className="text-neutral-400 text-sm">
+                        Mi email: <span className="text-white">valenfortunato06@gmail.com</span>
+                    </p>
+                    <p className="text-[#f9b82c] font-medium tracking-wide">
+                        Desarrollado por Valentín Fortunato
+                    </p>
+                </div>
             </div>
         </footer>
-        </>
-    )
-}
+    );
+};
