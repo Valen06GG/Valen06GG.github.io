@@ -90,8 +90,8 @@ export const Projects = () => {
                 <Image
                   src="/Pagina Aromas.png"
                   alt="Amorica Aromas"
-                  width={300}
-                  height={200}
+                  width={200}
+                  height={100}
                   className="rounded-lg w-full md:w-[300px]"
                 />
             
