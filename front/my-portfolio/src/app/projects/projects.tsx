@@ -88,7 +88,7 @@ export const Projects = () => {
               <div className="flex flex-col md:flex-row gap-8 items-center">
                 
                 <Image
-                  src="/amorica.png"
+                  src="/Pagina Aromas.png"
                   alt="Amorica Aromas"
                   width={300}
                   height={200}
