@@ -84,7 +84,43 @@ export const Projects = () => {
                   </p>
                 </div>
               </div>
+
+              <div className="flex flex-col md:flex-row gap-8 items-center">
+                
+                <Image
+                  src="/amorica.png"
+                  alt="Amorica Aromas"
+                  width={300}
+                  height={200}
+                  className="rounded-lg w-full md:w-[300px]"
+                />
             
+                <div className="flex flex-col gap-4">
+                  <div className="flex items-center justify-between w-full">
+                    <h2 className="text-2xl font-bold text-white">Amorica Aromas</h2>
+            
+                    <div className="flex gap-3">
+                      <a
+                        href="https://amorica-aromas.vercel.app"
+                        className="px-4 py-2 border border-white/20 rounded-lg hover:bg-white/10"
+                      >
+                        Ir a
+                      </a>
+            
+                      <a href="https://github.com/Valen06GG/Amorica-Aromas">
+                        <Image src={GitHubImage} alt="GitHub" width={28} height={28} />
+                      </a>
+                    </div>
+                  </div>
+            
+                  <p className="text-neutral-300 leading-relaxed">
+                    Amorica Aromas es una aplicación web de catálogo orientada a la exhibición y gestión de productos. Permite a los usuarios explorar artículos mediante búsqueda y filtrado por categorías, 
+                    además de acceder a una vista detallada de cada producto.
+                    Cuenta con un panel de administración donde es posible crear, editar y eliminar productos, incluyendo la carga de imágenes. La interfaz fue diseñada para ser moderna, 
+                    clara y responsive, priorizando la experiencia del usuario y simulando el funcionamiento de un e-commerce real.
+                  </p>
+                </div>
+              </div>
             </section>
          </main>
         </>
